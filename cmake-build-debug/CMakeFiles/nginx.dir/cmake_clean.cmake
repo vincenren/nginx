@@ -115,6 +115,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/nginx.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.o"
   "CMakeFiles/nginx.dir/src/http/modules/ngx_http_upstream_zone_module.c.o"
   "CMakeFiles/nginx.dir/src/auto/ngx_modules.c.o"
+  "CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o"
+  "CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o"
+  "CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o"
   "nginx.pdb"
   "nginx"
 )

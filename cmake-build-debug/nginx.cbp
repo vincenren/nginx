@@ -96,6 +96,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_json.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_json.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_parser.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_parser.h">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_upsync_module.c">
+			<Option target="nginx"/>
+		</Unit>
+		<Unit filename="/Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_upsync_module.h">
+			<Option target="nginx"/>
+		</Unit>
 		<Unit filename="/Users/admin/u51/learn/workspace/clion/nginx/src/auto/ngx_modules.c">
 			<Option target="nginx"/>
 		</Unit>

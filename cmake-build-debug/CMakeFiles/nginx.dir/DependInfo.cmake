@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_json.c" "/Users/admin/u51/learn/workspace/clion/nginx/cmake-build-debug/CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o"
+  "/Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_parser.c" "/Users/admin/u51/learn/workspace/clion/nginx/cmake-build-debug/CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o"
+  "/Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_upsync_module.c" "/Users/admin/u51/learn/workspace/clion/nginx/cmake-build-debug/CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o"
   "/Users/admin/u51/learn/workspace/clion/nginx/src/auto/ngx_modules.c" "/Users/admin/u51/learn/workspace/clion/nginx/cmake-build-debug/CMakeFiles/nginx.dir/src/auto/ngx_modules.c.o"
   "/Users/admin/u51/learn/workspace/clion/nginx/src/core/nginx.c" "/Users/admin/u51/learn/workspace/clion/nginx/cmake-build-debug/CMakeFiles/nginx.dir/src/core/nginx.c.o"
   "/Users/admin/u51/learn/workspace/clion/nginx/src/core/ngx_array.c" "/Users/admin/u51/learn/workspace/clion/nginx/cmake-build-debug/CMakeFiles/nginx.dir/src/core/ngx_array.c.o"

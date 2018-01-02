@@ -2841,6 +2841,78 @@ CMakeFiles/nginx.dir/src/auto/ngx_modules.c.o.provides: CMakeFiles/nginx.dir/src
 CMakeFiles/nginx.dir/src/auto/ngx_modules.c.o.provides.build: CMakeFiles/nginx.dir/src/auto/ngx_modules.c.o
 
 
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o: CMakeFiles/nginx.dir/flags.make
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o: ../nginx-upsync-module/src/ngx_http_json.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/u51/learn/workspace/clion/nginx/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o   -c /Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_json.c
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_json.c > CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.i
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_json.c -o CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.s
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o.requires:
+
+.PHONY : CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o.requires
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o.provides: CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o.requires
+	$(MAKE) -f CMakeFiles/nginx.dir/build.make CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o.provides.build
+.PHONY : CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o.provides
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o.provides.build: CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o
+
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o: CMakeFiles/nginx.dir/flags.make
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o: ../nginx-upsync-module/src/ngx_http_parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/u51/learn/workspace/clion/nginx/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o   -c /Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_parser.c
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_parser.c > CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.i
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_parser.c -o CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.s
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o.requires:
+
+.PHONY : CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o.requires
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o.provides: CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o.requires
+	$(MAKE) -f CMakeFiles/nginx.dir/build.make CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o.provides.build
+.PHONY : CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o.provides
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o.provides.build: CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o
+
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o: CMakeFiles/nginx.dir/flags.make
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o: ../nginx-upsync-module/src/ngx_http_upsync_module.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/admin/u51/learn/workspace/clion/nginx/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o   -c /Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_upsync_module.c
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_upsync_module.c > CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.i
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/admin/u51/learn/workspace/clion/nginx/nginx-upsync-module/src/ngx_http_upsync_module.c -o CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.s
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o.requires:
+
+.PHONY : CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o.requires
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o.provides: CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o.requires
+	$(MAKE) -f CMakeFiles/nginx.dir/build.make CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o.provides.build
+.PHONY : CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o.provides
+
+CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o.provides.build: CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o
+
+
 # Object files for target nginx
 nginx_OBJECTS = \
 "CMakeFiles/nginx.dir/src/core/nginx.c.o" \
@@ -2958,7 +3030,10 @@ nginx_OBJECTS = \
 "CMakeFiles/nginx.dir/src/http/modules/ngx_http_upstream_least_conn_module.c.o" \
 "CMakeFiles/nginx.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.o" \
 "CMakeFiles/nginx.dir/src/http/modules/ngx_http_upstream_zone_module.c.o" \
-"CMakeFiles/nginx.dir/src/auto/ngx_modules.c.o"
+"CMakeFiles/nginx.dir/src/auto/ngx_modules.c.o" \
+"CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o" \
+"CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o" \
+"CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o"
 
 # External object files for target nginx
 nginx_EXTERNAL_OBJECTS =
@@ -3079,9 +3154,12 @@ nginx: CMakeFiles/nginx.dir/src/http/modules/ngx_http_upstream_least_conn_module
 nginx: CMakeFiles/nginx.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.o
 nginx: CMakeFiles/nginx.dir/src/http/modules/ngx_http_upstream_zone_module.c.o
 nginx: CMakeFiles/nginx.dir/src/auto/ngx_modules.c.o
+nginx: CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o
+nginx: CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o
+nginx: CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o
 nginx: CMakeFiles/nginx.dir/build.make
 nginx: CMakeFiles/nginx.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/admin/u51/learn/workspace/clion/nginx/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Linking C executable nginx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/admin/u51/learn/workspace/clion/nginx/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Linking C executable nginx"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nginx.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -3205,6 +3283,9 @@ CMakeFiles/nginx.dir/requires: CMakeFiles/nginx.dir/src/http/modules/ngx_http_up
 CMakeFiles/nginx.dir/requires: CMakeFiles/nginx.dir/src/http/modules/ngx_http_upstream_keepalive_module.c.o.requires
 CMakeFiles/nginx.dir/requires: CMakeFiles/nginx.dir/src/http/modules/ngx_http_upstream_zone_module.c.o.requires
 CMakeFiles/nginx.dir/requires: CMakeFiles/nginx.dir/src/auto/ngx_modules.c.o.requires
+CMakeFiles/nginx.dir/requires: CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o.requires
+CMakeFiles/nginx.dir/requires: CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o.requires
+CMakeFiles/nginx.dir/requires: CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o.requires
 
 .PHONY : CMakeFiles/nginx.dir/requires
 

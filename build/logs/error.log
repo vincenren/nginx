@@ -1,1 +1,7 @@
 2018/01/01 14:11:44 [emerg] 7823#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2018/01/02 12:28:38 [emerg] 52467#0: unknown directive "upsync" in /Users/admin/u51/learn/workspace/clion/nginx/build/conf/nginx.conf:31
+2018/01/02 12:30:39 [emerg] 52508#0: unknown directive "check" in /Users/admin/u51/learn/workspace/clion/nginx/build/conf/nginx.conf:34
+2018/01/02 12:30:54 [emerg] 52532#0: unknown directive "check" in /Users/admin/u51/learn/workspace/clion/nginx/build/conf/nginx.conf:34
+2018/01/02 13:19:09 [emerg] 52637#0: unknown directive "check" in /Users/admin/u51/learn/workspace/clion/nginx/build/conf/nginx.conf:34
+2018/01/02 13:24:48 [emerg] 53466#0: unknown directive "upsync" in /Users/admin/u51/learn/workspace/clion/nginx/build/conf/nginx.conf:31
+2018/01/02 13:25:28 [emerg] 53849#0: unknown directive "upsync" in /Users/admin/u51/learn/workspace/clion/nginx/build/conf/nginx.conf:31

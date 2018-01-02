@@ -1,7 +1,10 @@
 cmake_minimum_required(VERSION 3.6)
 project(nginx)
 
-set(CMAKE_C_STANDARD 99)
+#set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_FLAGS "-pipe -Wall -Wextra -Wpointer-arith -Wconditional-uninitialized -Wno-unused-parameter -Wno-deprecated-declarations")
+
+#add_definitions(-DNGX_HTTP_UPSYNC_MODULE=0)
 
 include_directories(src/auto
         src/core
@@ -127,7 +130,13 @@ set(SOURCE_FILES
     src/http/modules/ngx_http_upstream_least_conn_module.c
     src/http/modules/ngx_http_upstream_keepalive_module.c
     src/http/modules/ngx_http_upstream_zone_module.c
-    src/auto/ngx_modules.c)
+    src/auto/ngx_modules.c
+	nginx-upsync-module/src/ngx_http_json.h
+	nginx-upsync-module/src/ngx_http_json.c
+	nginx-upsync-module/src/ngx_http_parser.h
+	nginx-upsync-module/src/ngx_http_parser.c
+	nginx-upsync-module/src/ngx_http_upsync_module.h
+	nginx-upsync-module/src/ngx_http_upsync_module.c)
 
 
 add_executable(nginx ${SOURCE_FILES})

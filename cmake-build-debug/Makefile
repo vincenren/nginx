@@ -123,6 +123,87 @@ nginx/fast:
 	$(MAKE) -f CMakeFiles/nginx.dir/build.make CMakeFiles/nginx.dir/build
 .PHONY : nginx/fast
 
+nginx-upsync-module/src/ngx_http_json.o: nginx-upsync-module/src/ngx_http_json.c.o
+
+.PHONY : nginx-upsync-module/src/ngx_http_json.o
+
+# target to build an object file
+nginx-upsync-module/src/ngx_http_json.c.o:
+	$(MAKE) -f CMakeFiles/nginx.dir/build.make CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.o
+.PHONY : nginx-upsync-module/src/ngx_http_json.c.o
+
+nginx-upsync-module/src/ngx_http_json.i: nginx-upsync-module/src/ngx_http_json.c.i
+
+.PHONY : nginx-upsync-module/src/ngx_http_json.i
+
+# target to preprocess a source file
+nginx-upsync-module/src/ngx_http_json.c.i:
+	$(MAKE) -f CMakeFiles/nginx.dir/build.make CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.i
+.PHONY : nginx-upsync-module/src/ngx_http_json.c.i
+
+nginx-upsync-module/src/ngx_http_json.s: nginx-upsync-module/src/ngx_http_json.c.s
+
+.PHONY : nginx-upsync-module/src/ngx_http_json.s
+
+# target to generate assembly for a file
+nginx-upsync-module/src/ngx_http_json.c.s:
+	$(MAKE) -f CMakeFiles/nginx.dir/build.make CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_json.c.s
+.PHONY : nginx-upsync-module/src/ngx_http_json.c.s
+
+nginx-upsync-module/src/ngx_http_parser.o: nginx-upsync-module/src/ngx_http_parser.c.o
+
+.PHONY : nginx-upsync-module/src/ngx_http_parser.o
+
+# target to build an object file
+nginx-upsync-module/src/ngx_http_parser.c.o:
+	$(MAKE) -f CMakeFiles/nginx.dir/build.make CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.o
+.PHONY : nginx-upsync-module/src/ngx_http_parser.c.o
+
+nginx-upsync-module/src/ngx_http_parser.i: nginx-upsync-module/src/ngx_http_parser.c.i
+
+.PHONY : nginx-upsync-module/src/ngx_http_parser.i
+
+# target to preprocess a source file
+nginx-upsync-module/src/ngx_http_parser.c.i:
+	$(MAKE) -f CMakeFiles/nginx.dir/build.make CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.i
+.PHONY : nginx-upsync-module/src/ngx_http_parser.c.i
+
+nginx-upsync-module/src/ngx_http_parser.s: nginx-upsync-module/src/ngx_http_parser.c.s
+
+.PHONY : nginx-upsync-module/src/ngx_http_parser.s
+
+# target to generate assembly for a file
+nginx-upsync-module/src/ngx_http_parser.c.s:
+	$(MAKE) -f CMakeFiles/nginx.dir/build.make CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_parser.c.s
+.PHONY : nginx-upsync-module/src/ngx_http_parser.c.s
+
+nginx-upsync-module/src/ngx_http_upsync_module.o: nginx-upsync-module/src/ngx_http_upsync_module.c.o
+
+.PHONY : nginx-upsync-module/src/ngx_http_upsync_module.o
+
+# target to build an object file
+nginx-upsync-module/src/ngx_http_upsync_module.c.o:
+	$(MAKE) -f CMakeFiles/nginx.dir/build.make CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.o
+.PHONY : nginx-upsync-module/src/ngx_http_upsync_module.c.o
+
+nginx-upsync-module/src/ngx_http_upsync_module.i: nginx-upsync-module/src/ngx_http_upsync_module.c.i
+
+.PHONY : nginx-upsync-module/src/ngx_http_upsync_module.i
+
+# target to preprocess a source file
+nginx-upsync-module/src/ngx_http_upsync_module.c.i:
+	$(MAKE) -f CMakeFiles/nginx.dir/build.make CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.i
+.PHONY : nginx-upsync-module/src/ngx_http_upsync_module.c.i
+
+nginx-upsync-module/src/ngx_http_upsync_module.s: nginx-upsync-module/src/ngx_http_upsync_module.c.s
+
+.PHONY : nginx-upsync-module/src/ngx_http_upsync_module.s
+
+# target to generate assembly for a file
+nginx-upsync-module/src/ngx_http_upsync_module.c.s:
+	$(MAKE) -f CMakeFiles/nginx.dir/build.make CMakeFiles/nginx.dir/nginx-upsync-module/src/ngx_http_upsync_module.c.s
+.PHONY : nginx-upsync-module/src/ngx_http_upsync_module.c.s
+
 src/auto/ngx_modules.o: src/auto/ngx_modules.c.o
 
 .PHONY : src/auto/ngx_modules.o
@@ -3264,6 +3345,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... nginx"
+	@echo "... nginx-upsync-module/src/ngx_http_json.o"
+	@echo "... nginx-upsync-module/src/ngx_http_json.i"
+	@echo "... nginx-upsync-module/src/ngx_http_json.s"
+	@echo "... nginx-upsync-module/src/ngx_http_parser.o"
+	@echo "... nginx-upsync-module/src/ngx_http_parser.i"
+	@echo "... nginx-upsync-module/src/ngx_http_parser.s"
+	@echo "... nginx-upsync-module/src/ngx_http_upsync_module.o"
+	@echo "... nginx-upsync-module/src/ngx_http_upsync_module.i"
+	@echo "... nginx-upsync-module/src/ngx_http_upsync_module.s"
 	@echo "... src/auto/ngx_modules.o"
 	@echo "... src/auto/ngx_modules.i"
 	@echo "... src/auto/ngx_modules.s"
